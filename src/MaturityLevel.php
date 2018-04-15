@@ -17,25 +17,25 @@ class MaturityLevel
     /**
      * @const string
      */
-    public const DEV = 'DEV';
+    const DEV = 'DEV';
 
     /**
      * @const string
      */
-    public const TEST = 'TEST';
+    const TEST = 'TEST';
 
     /**
      * @const string
      */
-    public const STAGE = 'STAGE';
+    const STAGE = 'STAGE';
 
     /**
      * @const string
      */
-    public const PROD = 'PROD';
+    const PROD = 'PROD';
 
     /**
      * @const string
      */
-    public const MAINTENANCE = 'MAINTENANCE';
+    const MAINTENANCE = 'MAINTENANCE';
 }
