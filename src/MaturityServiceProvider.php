@@ -23,7 +23,7 @@ class MaturityServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/config/maturity.php' => config_path('maturity.php'),
-        ]);
+        ], 'config');
     }
 
     public function register()

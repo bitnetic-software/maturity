@@ -4,7 +4,7 @@
 
 Just pull in the package via _composer_:
 
-    $ composer install bitnetic/maturity
+    $ composer install bitnetic/maturity "0.1.*"
 
 The maturity package comes with a config file named _config/maturity.php_. This file is deployed to the central laravel configuration directory using the _vendor:publish_ command:
 
